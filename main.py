@@ -17,5 +17,6 @@ for i in range(200):
 df = pd.DataFrame(result)
 # feature 1 change
 
+# feature 2 change
 print(df)
 df.to_csv("Customer.csv")
