@@ -15,6 +15,7 @@ for i in range(200):
 # df = pd.DataFrame(columns=list(result[0].keys()))
 
 df = pd.DataFrame(result)
+# feature 1 change
 
 print(df)
 df.to_csv("Customer.csv")
